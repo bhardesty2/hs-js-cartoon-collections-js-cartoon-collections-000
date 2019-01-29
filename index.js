@@ -27,7 +27,7 @@ return false
 }
 
 function findTheCheese (foods) {
-  for (var i = 1; i <foods.length; i++){
+  for (var i = 0; i <foods.length; i++){
 if (foods[i]=== "cheddar"
 || foods[i] === "swiss"
 ){

@@ -1,7 +1,7 @@
 var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 function dwarfRollCall(dwarves){
-  var newDwarves = "";
+  var newDwarves = [];
   for (var i = 0; i < dwarves.length; i++){
   if(i === dwarves.length){
     newDwarves += (i+1 + ". " + dwarves[i]);
